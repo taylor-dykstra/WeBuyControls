@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.top-banner {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .left {
+    max-width: 40%;
+}
+
+.hero .left h1 {
+    font-size: 2em;
+}
+
+.hero .right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.process {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.process ul {
+    list-style: none;
+    padding: 0;
+}
+
+.process li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.process li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: orange;
+}
+
+.liquidation-banner {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.brands-section {
+    background-color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
